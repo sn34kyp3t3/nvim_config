@@ -27,4 +27,11 @@ return {
       colorscheme = "tokyonight",
     },
   },
+  {
+    "arturgoms/moonbow.nvim",
+    priority = 1000,
+    config = function()
+      vim.cmdc.colorscheme("moonbow")
+    end,
+  },
 }
